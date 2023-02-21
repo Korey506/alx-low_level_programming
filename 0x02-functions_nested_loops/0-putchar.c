@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ * main- Entry point
  *
- * Return: On success 0;
+ *Descripition: The program writes with putchar
+ *
+ * Return: void
+ *
  */
 
 int main(void)
@@ -16,6 +19,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
